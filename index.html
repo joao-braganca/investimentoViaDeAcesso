@@ -4,10 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <main>
-        <input placeholder="">
+        <table>
+            <tr>
+                <td class="comeco">MESES</td>
+                <td class="comeco">JAN</td>
+                <td class="comeco">FEV</td>
+                <td class="comeco">MAR</td>
+                <td class="comeco">ABR</td>
+                <td class="comeco">MAI</td>
+                <td class="comeco">JUN</td>
+            </tr>
+            <tr>
+                <td class="comeco">VENDAS</td>
+                <td><input placeholder="primeira venda" id="venda"></td>
+                <td id="venda_fev"></td>
+                <td id="venda_mar"></td>
+                <td id="venda_abr"></td>
+                <td id="venda_mai"></td>
+                <td id="venda_jun"></td>
+            </tr>
+            <tr>
+                <td class="comeco">D.V.</td>
+                <td><input placeholder="primeiro DV" id="dv"></td>
+                <td id="dv_fev"></td>
+                <td id="dv_mar"></td>
+                <td id="dv_abr"></td>
+                <td id="dv_mai"></td>
+                <td id="dv_jun"></td>
+            </tr>
+            <tr>
+                <td class="comeco">D.F.</td>
+                <td><input placeholder="primeiro DF" id="df"></td>
+                <td id="df_fev"></td>
+                <td id="df_mar"></td>
+                <td id="df_abr"></td>
+                <td id="df_mai"></td>
+                <td id="df_jun"></td>
+            </tr>
+            <tr>
+                <td class="comeco">LUCRO</td>
+                <td id="lucro_jan"></td>
+                <td id="lucro_fev"></td>
+                <td id="lucro_mar"></td>
+                <td id="lucro_abr"></td>
+                <td id="lucro_mai"></td>
+                <td id="lucro_jun"></td>
+            </tr>
+            <tr>
+                <td class="comeco">%META</td>
+                <td><input  id="um" placeholder="digite a 1 meta"></td>
+                <td><input  id="dois" placeholder="digite a 2 meta"></td>
+                <td><input  id="tres" placeholder="digite a 3 meta"></td>
+                <td><input  id="quatro" placeholder="digite a 4 meta"></td>
+                <td><input  id="cinco" placeholder="digite a 5 meta"></td>
+            </tr>
+            <tr>
+                <td colspan="7">
+                    <button onclick="calcular()">CALCULAR</button>
+                </td>
+            </tr>
+        </table>    
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td id="resultado_fev" class="comeco"></td>
+                <td id="resultado_mar" class="comeco"></td>
+                <td id="resultado_abr" class="comeco"></td>
+                <td id="resultado_mai" class="comeco"></td>
+                <td id="resultado_jun" class="comeco"></td>
+            </tr>
+            <tr>
+                <td id="l_fev"></td>
+                <td id="l_mar"></td>
+                <td id="l_abr"></td>
+                <td id="l_mai"></td>
+                <td id="l_jun"></td>
+            </tr>
+            <tr>
+                <td id="ga_fev"></td>
+                <td id="ga_mar"></td>
+                <td id="ga_abr"></td>
+                <td id="ga_mai"></td>
+                <td id="ga_jun"></td>
+            </tr>
+            <tr>
+                <td id="ri_fev"></td>
+                <td id="ri_mar"></td>
+                <td id="ri_abr"></td>
+                <td id="ri_mai"></td>
+                <td id="ri_jun"></td>
+            </tr>
+            <tr>
+                <td id="if_fev"></td>
+                <td id="if_mar"></td>
+                <td id="if_abr"></td>
+                <td id="if_mai"></td>
+                <td id="if_jun"></td>
+            </tr>
+            <tr>
+                <td id="ap_fev"></td>
+                <td id="ap_mar"></td>
+                <td id="ap_abr"></td>
+                <td id="ap_mai"></td>
+                <td id="ap_jun"></td>
+            </tr>
+            <tr>
+                <td id="inv_fev"></td>
+                <td id="inv_mar"></td>
+                <td id="inv_abr"></td>
+                <td id="inv_mai"></td>
+                <td id="inv_jun"></td>
+            </tr>
+        </table>
     </main>
+    <script src="script/app.js"></script>
 </body>
 </html>

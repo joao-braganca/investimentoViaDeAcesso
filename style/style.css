@@ -1,0 +1,20 @@
+.comeco{
+    background-color: #aaa;
+    color: #0000ff;
+    font-weight: bolder;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+td{
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    height: 30px;
+}
+input{
+    text-align: center;
+    border: 0px;
+    height: 100%;
+}
